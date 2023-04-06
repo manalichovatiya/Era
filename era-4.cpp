@@ -1,0 +1,114 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+class car{
+	public:
+	int car_id;
+	char car_company_name[50];
+	char car_color[50];
+	char car_model[50];
+	int car_release_year;	
+};
+int main(){
+	car obj1;
+	obj1.car_id;
+	obj1.car_company_name;
+	obj1.car_color;
+	obj1.car_model;
+	obj1.car_release_year;
+	cout<<"=> Enter 1st car's details::"<<endl;	
+	cout<<"Enter car's id :";
+	cin>>obj1.car_id;
+	cout<<"Enter car's company name :";
+	cin>>obj1.car_company_name;
+	cout<<"Enter car's color :";
+	cin>>obj1.car_color;
+	cout<<"Enter car's model :";
+	cin>>obj1.car_model;
+	cout<<"Enter car's release year :";
+	cin>>obj1.car_release_year;
+	cout<<endl;
+	
+	car obj2;
+	obj2.car_id;
+	obj2.car_company_name;
+	obj2.car_color;
+	obj2.car_model;
+	obj2.car_release_year;
+	cout<<"=> Enter 2nd car's details::"<<endl;	
+	cout<<"Enter car's id :";
+	cin>>obj2.car_id;
+	cout<<"Enter car's company name :";
+	cin>>obj2.car_company_name;
+	cout<<"Enter car's color :";
+	cin>>obj2.car_color;
+	cout<<"Enter car's model :";
+	cin>>obj2.car_model;
+	cout<<"Enter car's release year :";
+	cin>>obj2.car_release_year;
+	cout<<endl;
+	
+	car obj3;
+	obj3.car_id;
+	obj3.car_company_name;
+	obj3.car_color;
+	obj3.car_model;
+	obj3.car_release_year;
+	cout<<"=> Enter 3rd car's details::"<<endl;	
+	cout<<"Enter car's id :";
+	cin>>obj3.car_id;
+	cout<<"Enter car's company name :";
+	cin>>obj3.car_company_name;
+	cout<<"Enter car's color :";
+	cin>>obj3.car_color;
+	cout<<"Enter car's model :";
+	cin>>obj3.car_model;
+	cout<<"Enter car's release year :";
+	cin>>obj3.car_release_year;
+	cout<<endl;
+	
+	car obj4;
+	obj4.car_id;
+	obj4.car_company_name;
+	obj4.car_color;
+	obj4.car_model;
+	obj4.car_release_year;
+	cout<<"=> Enter 4th car's details::"<<endl;	
+	cout<<"Enter car's id :";
+	cin>>obj4.car_id;
+	cout<<"Enter car's company name :";
+	cin>>obj4.car_company_name;
+	cout<<"Enter car's color :";
+	cin>>obj4.car_color;
+	cout<<"Enter car's model :";
+	cin>>obj4.car_model;
+	cout<<"Enter car's release year :";
+	cin>>obj4.car_release_year;
+	cout<<endl;
+	
+	cout<<"=>1st car's details:"<<endl;	
+	cout<<"car's id is :"<<obj1.car_id<<endl;
+	cout<<"car's company name is :"<<obj1.car_company_name<<endl;
+	cout<<"car's color is :"<<obj1.car_color<<endl;
+	cout<<"car's model is :"<<obj1.car_model<<endl;
+	cout<<"car's release year is :"<<obj1.car_release_year<<endl<<endl;
+	cout<<"=>2nd car's details:"<<endl;	
+	cout<<"car's id is :"<<obj2.car_id<<endl;
+	cout<<"car's company name is :"<<obj2.car_company_name<<endl;
+	cout<<"car's color is :"<<obj2.car_color<<endl;
+	cout<<"car's model is :"<<obj2.car_model<<endl;
+	cout<<"car's release year is :"<<obj2.car_release_year<<endl<<endl;
+	cout<<"=>3rd car's details:"<<endl;	
+	cout<<"car's id is :"<<obj3.car_id<<endl;
+	cout<<"car's company name is :"<<obj3.car_company_name<<endl;
+	cout<<"car's color is :"<<obj3.car_color<<endl;
+	cout<<"car's model is :"<<obj3.car_model<<endl;
+	cout<<"car's release year is :"<<obj3.car_release_year<<endl<<endl;
+	cout<<"=>4th car's details:"<<endl;	
+	cout<<"car's id is :"<<obj4.car_id<<endl;
+	cout<<"car's company name is :"<<obj4.car_company_name<<endl;
+	cout<<"car's color is :"<<obj4.car_color<<endl;
+	cout<<"car's model is :"<<obj4.car_model<<endl;
+	cout<<"car's release year is :"<<obj4.car_release_year<<endl<<endl;
+	return 0;
+}
